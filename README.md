@@ -1,4 +1,4 @@
-# The automations is for technical-assignment which has two components -
+## The automations is for technical-assignment which has two components -
 ### 1. Frontend - consists of two functionalities 'add assets' and check 'existing assets' 
 ### 2. Backend - using flask, consists of the API's and database for storage of asset data
 
