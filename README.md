@@ -11,3 +11,17 @@ The project consists of two feature files -
 2. existingasset - tests for sort, search and filter functionalities including invalid pattern search
 
 Global configurations are stored in the cypress.json file which dependencies are configured in package.json file.
+
+ Test-cases.xlsx
+The file consists of two sheets -
+  1. Test-case - contains the manual test cases for the demo website.
+  2. Defects - contains defects found in the website.
+  
+Execution:
+The project can be executed using commands -
+
+npx cypress run
+or
+npx cypress open (opens the GUI for executing the test cases)
+
+
