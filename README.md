@@ -20,8 +20,8 @@ Global configurations are stored in the cypress.json file which dependencies are
 Execution:
  The project can be executed using commands -
 
- npx cypress run
+ 'npx cypress run'
  or
- npx cypress open (opens the GUI for executing the test cases)
+ 'npx cypress open' (opens the GUI for executing the test cases)
 
 
