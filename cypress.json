@@ -6,6 +6,5 @@
     "*.md"
   ],
   "testFiles": "**/*.{feature,features}",
-  "baseUrl": "http://localhost:3000/",
-  "projectId": "87n7aw"
+  "baseUrl": "http://localhost:3000/"
 }
