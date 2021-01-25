@@ -1,0 +1,24 @@
+{
+  "name": "elinvarassignment",
+  "version": "1.0.0",
+  "description": "Elinvar assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "BDD",
+    "cucumber"
+  ],
+  "author": "neeraj Thapliyal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
