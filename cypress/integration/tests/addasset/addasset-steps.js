@@ -1,5 +1,7 @@
 let asset = "";
 
+//generate a random number to create an asset, it creates last 10 digits
+//to be added with the initial String
 function generateRandom() {
   return Math.floor((Math.random() + 1) * 1000000000);
 }
@@ -61,6 +63,8 @@ Then("I see error message that assets exists", () => {
   cy.get("[data-test=modal-body]").should("not.be.visible");
 });
 
+//ectract the format validation text message and validate
+//the text of the message
 Then("I see validation error message", () => {
   cy.get("@textbox").should(($textbox) => {
     expect($textbox.get(0).checkValidity()).to.equal(false);
